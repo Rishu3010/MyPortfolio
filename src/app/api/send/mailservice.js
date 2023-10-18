@@ -10,7 +10,7 @@ export async function sendMail(subject, toEmail, otpText) {
     });
 
     var mailOptions = {
-        from: process.env.NODEMAILER_EMAIL,
+        from: process.env.NODEMAILER_EMAIL_TO,
         to: process.env.NODEMAILER_EMAIL_TO,
         subject: `Sender: ${toEmail} => ${subject}`,
         text: otpText,

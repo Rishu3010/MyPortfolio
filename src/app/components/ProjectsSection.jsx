@@ -11,7 +11,7 @@ const projectsData = [
     description: "This is my portfolio website. It is built using Next.js, Tailwind CSS, Framer-Motion. It has a fully responsive design. It has a contact form which can be used to send me an email without using needing to login to your gmail. For this, I have used Nodemailer.",
     image: "/images/projects/1.png",
     tag: ["All", "Next.js", "React.js"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Rishu3010/MyPortfolio/",
     previewUrl: "/",
   },
   {
